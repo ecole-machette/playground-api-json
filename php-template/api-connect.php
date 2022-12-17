@@ -10,6 +10,6 @@ $requete = file_get_contents('https://randomuser.me/api/?inc=gender,name,email,n
 $propre = json_decode($requete);
 // echo($propre . "\r\n");
 var_dump($propre);
-echo ("TECHIO> open --port 8080 /project/target/index.html");
+echo ("TECHIO> open --static-dir /project/target");
 
 ?>
