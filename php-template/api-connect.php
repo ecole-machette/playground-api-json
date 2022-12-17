@@ -2,7 +2,7 @@
 
 echo "Hello";
 
-$requete = file_get_contents('https://randomuser.me/api/');
+$requete = file_get_contents('https://randomuser.me/api/?inc=gender,name,nat');
 print(json_encode($requete, JSON_PRETTY_PRINT));
 print($requete);
 echo($requete);
